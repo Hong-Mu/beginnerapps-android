@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_trot"
+    app:startDestination="@id/signer1Fragment">
+    <fragment
+        android:id="@+id/signer1Fragment"
+        android:name="com.hongmu.trot.Signer1Fragment"
+        android:label="fragment_signer1"
+        tools:layout="@layout/fragment_signer1" >
+        <action
+            android:id="@+id/action_signer1Fragment_to_signer2Fragment"
+            app:destination="@id/signer2Fragment" />
+        <action
+            android:id="@+id/action_signer1Fragment_to_signer3Fragment"
+            app:destination="@id/signer3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signer3Fragment"
+        android:name="com.hongmu.trot.Signer3Fragment"
+        android:label="fragment_signer3"
+        tools:layout="@layout/fragment_signer3" >
+        <action
+            android:id="@+id/action_signer3Fragment_to_signer1Fragment"
+            app:destination="@id/signer1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signer2Fragment"
+        android:name="com.hongmu.trot.Signer2Fragment"
+        android:label="fragment_signer2"
+        tools:layout="@layout/fragment_signer2" >
+        <action
+            android:id="@+id/action_signer2Fragment_to_signer1Fragment"
+            app:destination="@id/signer1Fragment" />
+        <action
+            android:id="@+id/action_signer2Fragment_to_signer3Fragment"
+            app:destination="@id/signer3Fragment" />
+    </fragment>
+</navigation>
