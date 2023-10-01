@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "758871106063",
+    "project_id": "beginnerapps-mangoplate",
+    "storage_bucket": "beginnerapps-mangoplate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758871106063:android:6202ad339dc94169ccb97a",
+        "android_client_info": {
+          "package_name": "com.hongmu.mangoplate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWMl4PELMKIqFtj98Dsr277aKca6cWc5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
