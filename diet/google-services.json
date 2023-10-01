@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "729443617431",
+    "project_id": "beginnerapps-diet",
+    "storage_bucket": "beginnerapps-diet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729443617431:android:f1050ba2507ded60b5b7d2",
+        "android_client_info": {
+          "package_name": "com.hongmu.diet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSZhN0SM8X1ibfPXMn6qxUYs3WCpBUD6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
